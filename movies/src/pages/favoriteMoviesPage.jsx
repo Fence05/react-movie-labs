@@ -6,6 +6,7 @@ import { getMovie } from "../api/tmdb-api";
 import Spinner from '../components/spinner';
 import RemoveFromFavorites from "../components/cardIcons/removeFromFavorites";
 import WriteReview from "../components/cardIcons/writeReview";
+import PlaylistAddIcon from '@mui/icons-material/playlistAdd';
 
 
 const FavoriteMoviesPage = () => {
@@ -44,6 +45,8 @@ const FavoriteMoviesPage = () => {
           <>
             <RemoveFromFavorites movie={movie} />
             <WriteReview movie={movie} />
+            <PlaylistAddIcon movie={movie}/>
+
           </>
         );
       }}
