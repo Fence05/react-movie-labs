@@ -13,7 +13,7 @@ import AddMovieReviewPage from './pages/addMovieReviewPage';
 import UpcomingMoviesPage from './pages/upcomingMoviesPage';
 import MustWatchMoviesPage from './pages/mustWatchMoviesPage';
 
-
+ 
 
 const queryClient = new QueryClient({
   defaultOptions: {
